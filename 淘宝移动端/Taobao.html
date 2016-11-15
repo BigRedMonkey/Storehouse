@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+var scale = 1;
+if(window.devicePixelRatio){
+	scale = scale / window.devicePixelRatio;
+}
+document.write('<meta name="viewport" content="initial-scale='+scale+',minimum-scale='+scale+',maximum-scale='+scale+',user-scalable=no" />');
+</script>
+<script>
+toSize ();
+function toSize () {
+	var html = document.getElementsByTagName("html")[0];
+	var screenW = html.getBoundingClientRect().width; 
+	html.style.fontSize = screenW/15 + "px";
+}
+window.addEventListener(
+	"orientationchange",
+	function(){
+		//横竖屏切换之后，会执行这里边的代码
+		toSize ();
+	},
+	false
+);
+window.addEventListener(
+	"resize",
+	function(){
+		//横竖屏切换之后，会执行这里边的代码
+		toSize ();
+	},
+	false
+);
+/*
+	1rem = 页面宽度 15分之1
+  
+*/
+</script>
+<title>无标题文档</title>
+<link href="css/Taobao.css" rel="stylesheet"/>
+</head>
+
+<body>
+<header class="header clearFix">
+	<a href="#" class="sweep">扫一扫</a>
+    <div id="seek">
+    	<input class="seek" type="text">
+    </div>
+    <a href="#" class="news">消息</a>
+</header>
+<section id="box">
+<section class="banner clearFix">
+	<span class="dian1"></span>
+    <span class="dian2"></span>
+    <span class="dian3"></span>
+</section>
+<section class="APP clearFix">
+    <a class="app1">天猫</a>
+    <a class="app2">天猫</a>
+    <a class="app3">天猫</a>
+    <a class="app4">天猫</a>
+    <a class="app5">天猫</a>
+    <a class="app6">天猫</a>
+    <a class="app7">天猫</a>
+    <a class="app8">天猫</a>
+    <a class="app9">天猫</a>
+    <a class="app10">天猫</a>
+</section>
+<section class="headline">
+	<h2></h2>
+    <ul>
+    	<li><a href="#">看《魔兽》电影你必须知道这些看《魔兽》电影你必须知道这些看《魔兽》电影你必须知道这些看《魔兽》电影你必须知道这些看《魔兽》电影你必须知道这些</a></li>
+        <li><a href="#">看《魔兽》电影你必须知道这些</a></li>
+    </ul>
+</section>
+<section class="panic clearFix">
+	<div class="taoPanic">
+    	<h2></h2>
+        <h3>汇全网尖货 抢半价</h3>
+        <div class="xianshi"></div>
+    </div>
+    <div class="panicRight">
+    	<div class="panicRightTop clearFix">
+        	<div class="panicRightTop1">
+            	<div class="youhaohuo"></div>
+                <div class="meiri">每日精选200款</div>
+                <div class="pinzhi">品质生活指南</div>
+            </div>
+            <div class="panicRightTop2"></div>
+        </div>
+        <div class="panicRightBottom clearFix">
+        	<div class="panicBL">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+           <div class="panicBR">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="panic clearFix">
+	<div class="taoPanic">
+    	<h2></h2>
+        <h3>汇全网尖货 抢半价</h3>
+        <div class="xianshi"></div>
+    </div>
+    <div class="panicRight">
+    	<div class="panicRightTop clearFix">
+        	<div class="panicRightTop1">
+            	<div class="youhaohuo"></div>
+                <div class="meiri">每日精选200款</div>
+                <div class="pinzhi">品质生活指南</div>
+            </div>
+            <div class="panicRightTop2"></div>
+        </div>
+        <div class="panicRightBottom clearFix">
+        	<div class="panicBL">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+           <div class="panicBR">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="panic clearFix">
+	<div class="taoPanic">
+    	<h2></h2>
+        <h3>汇全网尖货 抢半价</h3>
+        <div class="xianshi"></div>
+    </div>
+    <div class="panicRight">
+    	<div class="panicRightTop clearFix">
+        	<div class="panicRightTop1">
+            	<div class="youhaohuo"></div>
+                <div class="meiri">每日精选200款</div>
+                <div class="pinzhi">品质生活指南</div>
+            </div>
+            <div class="panicRightTop2"></div>
+        </div>
+        <div class="panicRightBottom clearFix">
+        	<div class="panicBL">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+           <div class="panicBR">
+            	<h3></h3>
+                <p>可爱的你会喜欢</p>
+                <img src="img/lian.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fensi">
+	<ul class="clearFix">
+    	<li><a><img src="img/q1.png"/></a></li>
+        <li><a><img src="img/q1.png"/></a></li>
+        <li><a><img src="img/q1.png"/></a></li>
+        <li><a><img src="img/q1.png"/></a></li>
+    </ul>
+</section>
+<section class="shopping">
+	<ul class="clearFix">
+    	<li class="xihuan">
+        	<h2>猜你喜欢</h2>
+        </li>
+    	<li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+        <li>
+        	<a href="#">
+            	<img src="img/shopp.png"/>
+        		<h3>[为你推荐]休闲进口零食大礼包七夕情人节生日节日男女礼物</h3>
+                <p>¥&nbsp;138.0</p>
+       		</a>
+        </li>
+    </ul>
+</section>
+<section class="register">
+	<nav class="registerNav clearFix">
+    	<a href="#">登录</a>
+        <a href="#">注册</a>
+        <a href="#">电脑版</a>
+        <a href="#">用户反馈</a>
+    </nav>
+    <p><span>©</span> 2016 浙 B2-20080224 服务中心</p>
+</section>
+</section>
+<footer class="footer clearFix">
+	<a href="#" class="footerNav1">首页</a>	
+    <a href="#" class="footerNav2">微淘</a>	
+    <a href="#" class="footerNav3">社区</a>	
+    <a href="#" class="footerNav4">购物车</a>	
+    <a href="#" class="footerNav5">我的淘宝</a>	
+</footer>
+</body>
+</html>
